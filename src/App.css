@@ -1,5 +1,147 @@
 .App {
-  text-align: center;
+  color: rgb(20, 50, 70);
+  background-color: rgb(156, 159, 161);
+  padding: 0px;
+}
+.navbar-heading {
+  background-color: rgb(214, 233, 238);
+  margin-top: 0px;
+  padding: 6px;
+  font-size: 22px;
+}
+.sorting-container {
+  display: flex;
+  flex-direction: row;
+}
+.sorting-card {
+  background-color: rgb(255, 251, 251);
+  margin-bottom: 4px;
+  margin-right: 4px;
+  margin-left: 4px;
+  border-radius: 6px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.date-name-styling {
+  font-size: 12px;
+  color: rgb(125, 131, 136);
+  margin: 0px;
+}
+.date-styling {
+  font-size: 15px;
+  color: rgb(78, 80, 82);
+  margin: 0px;
+}
+.updates-container {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: row;
+}
+.image-container {
+  width: 200px;
+  background-color: white;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  height: 200px;
+  margin-left: 5px;
+}
+.instagram-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 6px;
+}
+.new-followers-container {
+  background-color: white;
+  border-radius: 6px;
+  padding: 6px;
+  width: 250px;
+  height: 188px;
+}
+.new-followers-text {
+  margin: 0px;
+  font-size: 15px;
+  color: rgb(76, 78, 80);
+  font-size: 14px;
+}
+.new-followers-num-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.new-follower-num-heading {
+  margin-bottom: 1px;
+  margin-top: 25px;
+}
+.increasing-new-followers-num {
+  margin: 1px;
+  color: green;
+}
+.vs-last-to-this-month {
+  margin: 1px;
+  font-size: 12px;
+  font-weight: 500px;
+}
+.monthly-new-followers-container {
+  height: 188px;
+  padding: 6px;
+  background-color: white;
+  margin-left: 6px;
+  border-radius: 6px;
+}
+.graph-styling {
+  height: 172px;
+  width: 600px;
+}
+.quick-stats-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 4px;
+  padding: 6px;
+}
+.total-stats-container {
+  display: flex;
+  flex-direction: row;
+  padding: 6px;
+}
+.total-users-card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 6px;
+  width: 250px;
+  height: 188px;
+  margin-right: 4px;
+}
+.total-users-text {
+  color: rgb(76, 78, 80);
+  margin: 1px;
+}
+.total-users-numbering-alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.total-users-number {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.total-users-increase {
+  color: green;
+  margin: 0px;
+}
+.total-users-previous-year {
+  margin: 0px;
 }
 
 .App-logo {
